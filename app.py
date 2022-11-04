@@ -19,7 +19,9 @@ from model import build_unet
 
 
 st.title('Deforestration Detection using U-NET')
-st.image('/Users/sarangsonar/Desktop/Deforestation Monitoring-  Streamlit/Images/forest.jpeg')
+st.title('test')
+
+st.image('./Images/forest.jpeg')
 a = st.sidebar.title('Options')
 
 uploaded_file = st.sidebar.file_uploader("Choose an image...")
