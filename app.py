@@ -19,7 +19,7 @@ from model import build_unet
 
 
 st.title('Deforestration Detection using U-NET')
-st.title('test')
+
 
 st.image('./Images/forest.jpeg')
 a = st.sidebar.title('Options')
@@ -37,7 +37,7 @@ st.image(image)
 
 ## Loading Model 
 final_filters = 2048
-path_to_load = "/Users/sarangsonar/Desktop/Deforestation Monitoring-  Streamlit/Pretrained_Weights.h5"
+path_to_load = "./Pretrained_Weights.h5"
 
 
 model_1 = build_unet(input_shape=(512, 512, 3),
